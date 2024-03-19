@@ -1,0 +1,53 @@
+﻿.hero { 
+    width: 100%;
+    position: fixed;
+    border-style: none;
+    border-radius: 10px;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 10px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+nav {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-style: none;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+}
+
+nav span {
+    color: #52e6e6;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #52e6e6;
+    transition: 0.3s;
+}
+
+

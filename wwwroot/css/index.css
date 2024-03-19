@@ -1,0 +1,29 @@
+﻿.guest-title {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    margin-left: 520px;
+    font-family: -apple-system;
+}
+
+.anon-title {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    margin-left: 565px;
+    font-family: -apple-system;
+}
+
+.admin-title {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    margin-left: 520px;
+    font-family: -apple-system;
+}
+
+.main-title:hover {
+    color: #52e6e6;
+    transition: 0.3s;
+    cursor: pointer;
+}

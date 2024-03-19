@@ -1,0 +1,88 @@
+﻿.container {
+    padding: 40px 0px 0px 0px;
+}
+.container, .form-group, .button-container, .movies-container {
+    margin-inline: auto;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rental-title {
+    color: white;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    transition: 0.1s;
+}
+
+.rental-title:hover {
+    color: #18ffff;
+}
+.form-group label {
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.form-group input {
+    width: 100%;
+}
+.form-group ul {
+    padding-left: 0px;
+    background-color: black;
+}
+.form-group ul li{
+    list-style: none;
+    padding: 3px 5px;
+    color: white;
+    transition: 0.15s;
+}
+.form-group ul li:hover {
+    color: #18ffff;
+    box-shadow: 0 0 2px 2px #18ffff inset;
+    cursor: pointer;
+}
+.form-group ul a{
+    text-decoration: none;
+    color: white;
+}
+.movies-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+    border-radius: 5px;
+}
+.movies-container li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .button-container button {
+        width: 50%;
+        margin-top: 40px;
+        padding: 10px 20px;
+        color: white;
+        border: 2px solid #18ffff;
+        transition: 0.3s;
+    }
+
+.button-container button:hover {
+            color: #18ffff;
+            box-shadow: 0 0 5px 5px #18ffff inset;
+        }
+
+.error label{
+    color: red;
+}

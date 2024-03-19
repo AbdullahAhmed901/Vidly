@@ -1,0 +1,131 @@
+﻿
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background-color: transparent;
+}
+
+.card {
+    border: 2px solid #18ffff;
+    backdrop-filter: blur(15px);
+    padding: 0px 40px 40px 40px;
+    width: 1100px;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+
+.form, text-uppercase, card-body, card, row {
+    width: 1100px;
+    height: 90%;
+}
+
+.text-uppercase {
+    margin-top: -30px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    margin-left: -25px;
+    padding:40px 0px 80px 0px;
+    position: relative;
+}
+
+.right-section,
+.left-section {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.Picture-section {
+    width:100px;
+    height:90px;
+
+    display: flex;
+    position: absolute;
+    top:-30px;
+    left: 0px;
+}
+
+    .Picture-section img {
+        border-radius: 50px;
+}
+    .form-outline,
+    .form-outline input {
+        background-color: transparent;
+        color: white;
+        outline-color: #18ffff;
+    }
+
+    .form-outline input:focus {
+        background-color: transparent;
+        color: white;
+        outline-color: #18ffff;
+    }
+
+.button-edit-container {
+    position: absolute;
+    bottom: -5px;
+    left: 5px;
+}
+
+    .button-edit-container .button {
+        padding: 10px 100px;
+        border-radius: 50px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid #84fab0;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+
+.button-edit-container .button:hover {
+    color: #84fab0;
+    box-shadow: 0 0 5px 5px #84fab0 inset;
+}
+
+.button-delete-container {
+    position: absolute;
+    bottom: -5px;
+    right: 132px;
+}
+
+    .button-delete-container .button {
+        padding: 10px 100px;
+        border-radius: 50px;
+        background-color: transparent;
+        color: rgb(234, 39, 39);
+        border: 2px solid rgb(216, 48, 48);
+        transition: 0.3s;
+    }
+
+        .button-delete-container .button:hover {
+            color: rgb(234, 39, 39);
+            box-shadow: 0 0 5px 5px rgb(216, 48, 48) inset;
+        }
+
+        .login-box {
+            position: absolute;
+            bottom: 15px;
+            right: 200px;
+        }
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+.button-delete-container {
+    background: transparent;
+    color: white;
+}
+.left-section input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: #18ffff;
+    margin-right: -8px;
+}

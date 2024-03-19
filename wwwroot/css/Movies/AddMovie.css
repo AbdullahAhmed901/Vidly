@@ -1,0 +1,159 @@
+﻿.login-box {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+    width: 1000px;
+    border-radius: 20px;
+    margin-inline: auto;
+    border: 2px solid #18ffff;
+    padding: 0px 50px;
+    margin-top: -40px;
+}
+
+    .login-box h2 {
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        right: 40%;
+        font-size: 30px;
+        font-family: arial;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+    }
+
+.right-section, .left-section {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+
+}
+
+.input-box {
+    width: 400px;
+    margin: 40px 0px 0px 0px;
+    border-bottom: 2px solid #18ffff;
+    position: relative;
+}
+
+    .input-box label {
+        position: absolute;
+        top: 50%;
+        left: 2px;
+        transform: translateY(-50%);
+        font-size: 15px;
+        color: white;
+        pointer-events: none;
+        transition: 0.3s;
+    }
+
+    .input-box select {
+        width: 100%;
+        height: 40px;
+        background-color: rgba(0,0,0,0.8);
+        border-style: none;
+        outline-style: none;
+        color: white;
+        
+    }
+
+    .input-box input[type="date"]::-webkit-calendar-picker-indicator {
+        background-color: #18ffff;
+        margin-right: -18px;
+    }
+
+    .input-box input[type="number"]::-webkit-inner-spin-button {
+        background-color: #18ffff;
+        color: #18ffff;
+        margin-right: -18px;
+    }
+
+
+.image-container label {
+    bottom: 5px;
+}
+
+
+    .input-box select option {
+        background-color: transparent;
+    }
+        .input-box input {
+            width: 100%;
+            height: 40px;
+            background-color: transparent;
+            border-style: none;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            padding: 5px 20px 5px 7px;
+            transition: 0.3s;
+        }
+
+
+        .input-box input:focus ~ label,
+        .input-box input:valid ~ label,
+        .input-box input:not(:placeholder-shown) ~ label {
+            top: -5px;
+            transition: 0.3s;
+        }
+
+
+.description {
+
+    border: 2px solid #18ffff;
+    border-radius: 5px;
+    padding: 0;
+}
+.description textarea {
+    background-color: transparent;
+    color: white;
+    width:  100%;
+    outline-style: none;
+    padding: 5px 10px 5px 10px;
+}
+.description label{
+    top: 5%;
+}
+
+    .description textarea:focus ~ label,
+    .description textarea:valid ~ label,
+    .description textarea:not(:placeholder-shown) ~ label {
+        top: -13px;
+        transition: 0.3s;
+    }
+
+.login-box button {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+
+    width: 400px;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(224, 218, 218);
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #18ffff;
+    transition: 0.3s;
+}
+
+    .login-box button:hover {
+        color: #18ffff;
+        box-shadow: 0 0 5px 5px #18ffff inset;
+    }
+
+
+

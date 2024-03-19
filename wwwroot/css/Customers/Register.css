@@ -1,0 +1,242 @@
+﻿/*.login-container {
+    display: grid;
+    row-gap: 20px;
+    width: 500px;
+    padding-top: 100px; 
+    margin-inline: auto;
+    align-items: center;
+}
+
+.input-field {
+    position: relative;
+}
+
+.login-container h2 {
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    padding: 
+}
+
+.input-field input {
+    width: 400px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid #18ffff;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 19px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border: 2px solid #18ffff;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+input:not(:placeholder-shown) ~ label {
+    top: 0;
+    left: 15px;
+    font-size: 16px;
+    padding: 0 2px;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+}
+
+button {
+    padding: 10px 20px;
+    width: 400px;
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #18ffff;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 0 0 5px 2px #18ffff inset;
+}
+
+
+.login-container {
+    display: grid;
+    row-gap: 20px;
+    width: 500px;
+    padding-top: 100px; 
+    margin-inline: auto;
+    align-items: center;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field input {
+    width: 400px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid #18ffff;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 19px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border: 2px solid #18ffff;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+input:not(:placeholder-shown) ~ label {
+    top: 0;
+    left: 15px;
+    font-size: 16px;
+    padding: 0 2px;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+}
+
+button {
+    padding: 10px 20px;
+    width: 400px;
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #18ffff;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 0 0 5px 2px #18ffff inset;
+}
+    */
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background-color: transparent;
+
+}
+
+.card {
+    border: 2px solid #18ffff;
+    backdrop-filter: blur(15px);
+    padding: 0px 40px 40px 40px;
+    width: 1100px;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+
+form, text-uppercase, card-body, card, row {
+    width: 1100px;
+    height: 90%;
+}
+
+.text-uppercase {
+    margin-top: -30px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    margin-left: -25px;
+    position: relative;
+
+}
+
+.errors-container {
+    position: absolute;
+
+    display: flex;
+    width: 245px;
+    top: -20px;
+    left: -310px;
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    border-style: 2px solid red;
+    border-radius: 5px;
+}
+
+.right-section,
+.left-section {
+    width: 400px;
+    margin-top: 60px;
+
+}
+.form-outline,
+.form-outline input {
+    background-color: transparent;
+    color: white;
+    outline-color: #18ffff;
+}
+
+.form-outline input:focus {
+    background-color: transparent;
+    color: white;
+    outline-color: #18ffff;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 55px;
+    right: 132px;
+}
+
+.button-container button {
+    padding: 20px 165px;
+    border-radius: 50px;
+}
+
+.login-box {
+    position: absolute;
+    bottom: 15px;
+    right: 200px;
+}
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+.right-section input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: #18ffff;
+    margin-right: -8px;
+}

@@ -1,0 +1,104 @@
+﻿
+.movie-container {
+    width: 1100px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-inline: auto;
+}
+
+.left-section {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.left-section img {
+    max-height: max-content;
+}
+
+.right-section {
+    position: relative;
+    width: 100%;
+}
+
+.movie-title {
+    color: white;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 700px;
+
+    position: absolute;
+    top: -10px;
+
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding: 0px 30px 20px 30px;
+}
+
+.movie-container h3 {
+    color: white;
+    font-size: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 45px;
+    text-transform: uppercase;
+    width: 700px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+
+.movie-discription {
+    color: rgb(224, 218, 218);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
+    position: absolute;
+    top: 35%;
+    width: 700px;
+    padding: 0px 30px;
+}
+
+.movie-container button {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 30px;
+    bottom: 5%;
+    width: 70%;
+    padding: 20px 65px;
+    background-color: transparent;
+    color: rgb(224, 218, 218);
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.movie-container button:hover {
+    color: #18ffff;
+    box-shadow: 0 0 5px 5px #18ffff inset;
+}
+
+.movie-container a {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 30px;
+    bottom: 5%;
+    width: 70%;
+    padding: 20px 165px ;
+    background-color: transparent;
+    color: rgb(224, 218, 218);
+    text-decoration: none;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.movie-container a:hover {
+    color: #18ffff;
+    box-shadow: 0 0 5px 5px #18ffff inset;
+}

@@ -1,0 +1,75 @@
+﻿/*
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+}
+
+.footer-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.contact-button {
+    font-size: 25px;
+    cursor: pointer;
+}*/
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.contact-button {
+    font-size: 25px;
+    cursor: pointer;
+    position: relative; /* Needed for proper positioning of the dropdown */
+}
+
+.contact-dropdown {
+    display: none;
+    position: absolute;
+    bottom: 80%; /* Position the list below the button */
+    left: 0; /* Align the list to the left of the button */
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #52e6e6;
+}
+
+.contact-button:hover .contact-dropdown {
+    display: block;
+}
+
+.contact-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.contact-link:hover {
+    color: #007bff;
+}
