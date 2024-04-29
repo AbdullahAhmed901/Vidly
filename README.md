@@ -8,3 +8,4 @@ operations on all aspects.
  -Used jQuery for Ajax calls.
 
  watch the demo: https://youtu.be/bSdsb8qf6jY
+ or visit the website: http://www.Vidly.somee.com
